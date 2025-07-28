@@ -78,6 +78,7 @@ onMounted(() => {
   border: 0;
   outline: 0;
   background: transparent;
+  color: var(--color-text-primary);
   padding: 0;
   margin: 0;
   cursor: pointer;
