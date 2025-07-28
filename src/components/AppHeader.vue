@@ -5,7 +5,9 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 <template>
   <header class="app__header">
     <div class="inner-container">
-      <div class="app__title text-preset2">Where in the world?</div>
+      <div class="app__title text-preset2">
+        <RouterLink to="/">Where in the world?</RouterLink>
+      </div>
       <ThemeSwitcher />
     </div>
   </header>
@@ -28,5 +30,15 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.app__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app__title a:focus-visible {
+  outline: 1px dashed var(--color-text-primary);
+  outline-offset: 4px;
 }
 </style>
