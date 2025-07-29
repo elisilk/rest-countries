@@ -19,7 +19,7 @@ watch(() => route.params.countryCode, fetchCountry, { immediate: true })
 </script>
 
 <template>
-  <main class="app__main">
+  <main class="app__main" id="main-content">
     <div class="inner-container inner-container--detail">
       <BackButton />
 

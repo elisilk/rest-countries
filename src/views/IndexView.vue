@@ -4,7 +4,7 @@ import CountryList from '@/components/CountryList.vue'
 </script>
 
 <template>
-  <main class="app__main">
+  <main class="app__main" id="main-content">
     <div class="inner-container">
       <h1 class="sr-only">REST Countries</h1>
       <AppControls />
