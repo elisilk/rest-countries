@@ -32,11 +32,12 @@ Users should be able to:
 
 ### Screenshots
 
-|             Mobile designed at 375px:              |             Tablet designed at 1440px:             | Desktop designed at 1440px:                         |
-| :------------------------------------------------: | :------------------------------------------------: | --------------------------------------------------- |
-|   ![](./screenshots/screenshot-mobile-empty.png)   |   ![](./screenshots/screenshot-tablet-empty.png)   | ![](./screenshots/screenshot-desktop-empty.png)     |
-| ![](./screenshots/screenshot-mobile-completed.png) | ![](./screenshots/screenshot-tablet-completed.png) | ![](./screenshots/screenshot-desktop-completed.png) |
-|   ![](./screenshots/screenshot-mobile-error.png)   |   ![](./screenshots/screenshot-tablet-error.png)   | ![](./screenshots/screenshot-desktop-error.png)     |
+|               Mobile designed at 375px:               |              Tablet designed at 1440px:               | Desktop designed at 1440px:                            |
+| :---------------------------------------------------: | :---------------------------------------------------: | ------------------------------------------------------ |
+| ![](./screenshots/screenshot-mobile-index-light.png)  | ![](./screenshots/screenshot-tablet-index-light.png)  | ![](./screenshots/screenshot-desktop-index-light.png)  |
+|  ![](./screenshots/screenshot-mobile-index-dark.png)  |  ![](./screenshots/screenshot-tablet-index-dark.png)  | ![](./screenshots/screenshot-desktop-index-dark.png)   |
+| ![](./screenshots/screenshot-mobile-detail-light.png) | ![](./screenshots/screenshot-tablet-detail-light.png) | ![](./screenshots/screenshot-desktop-detail-light.png) |
+| ![](./screenshots/screenshot-mobile-detail-dark.png)  | ![](./screenshots/screenshot-tablet-detail-dark.png)  | ![](./screenshots/screenshot-desktop-detail-dark.png)  |
 
 ### Links
 
@@ -108,8 +109,8 @@ As always, so many cool :sunglasses: things. Here are some of the key resources 
 
 Specific areas that the solution should be improved (known issues):
 
-- [ ] Fix sizing and styling of SVG icons
-- [ ] Fix styling of input and select elements
+- [x] Fix sizing and styling of SVG icons
+- [x] Fix styling of input and select elements
 
 More general ideas I want to consider:
 

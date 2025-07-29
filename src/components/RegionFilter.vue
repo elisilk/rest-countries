@@ -225,7 +225,7 @@ onBeforeUnmount(() => {
   list-style: none;
   margin: var(--space-100) 0 0;
   padding: var(--space-150) var(--space-100);
-  block-size: calc(144px + 24px); /* 144px */
+  block-size: calc(144px + 28px); /* 144px */
   overflow-y: auto;
 }
 
