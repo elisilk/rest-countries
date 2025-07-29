@@ -187,6 +187,10 @@
 /* Body / App           */
 /* -------------------- */
 
+html {
+  scroll-padding-top: var(--block-size-header);
+}
+
 body {
   color: var(--color-text-primary);
   background: var(--color-background-primary);
