@@ -5,7 +5,7 @@ const countriesStore = useCountriesStore()
 </script>
 
 <template>
-  <form class="country-search__container">
+  <div class="country-search__container">
     <label for="country-search">
       <svg
         class="country-search__icon"
@@ -29,7 +29,7 @@ const countriesStore = useCountriesStore()
       placeholder="Search for a country…"
       v-model="countriesStore.nameFilter"
     />
-  </form>
+  </div>
 </template>
 
 <style scoped>

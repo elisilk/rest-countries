@@ -43,15 +43,15 @@
   --text-preset3-lh: 1.45;
   --text-preset3-ls: 0px;
 
-  --text-preset4-fs: var(--fs-400); /* 16px */
-  --text-preset4-lh: 2;
+  --text-preset4-fs: var(--fs-200); /* (m) 12px -> (t) 16px */
+  --text-preset4-lh: 1.35; /* (m) 135% -> (t) 200% */
   --text-preset4-ls: 0px;
 
   --text-preset5-fs: var(--fs-300); /* 14px */
   --text-preset5-ls: 0px;
 
   --text-preset6-fs: var(--fs-200); /* 12px */
-  --text-preset4-lh: 1.35;
+  --text-preset6-lh: 1.35;
   --text-preset6-ls: 0px;
 }
 
@@ -74,6 +74,8 @@
 @media (min-width: 60rem) {
   :root {
     --text-preset2-fs: var(--fs-600); /* (m) 14px -> (t) 24px */
+    --text-preset4-fs: var(--fs-400); /* (m) 12px -> (t) 16px */
+    --text-preset4-lh: 1.35; /* (m) 135% -> (t) 200% */
 
     --inline-size-detail-gutter: var(--space-300); /* (m) 27.5px -> (t) 99px -> (d) 0px? */
 
@@ -188,7 +190,7 @@
 /* -------------------- */
 
 html {
-  scroll-padding-top: var(--block-size-header);
+  scroll-padding-block-start: var(--block-size-header);
 }
 
 body {

@@ -52,10 +52,10 @@ export const useCountriesStore = defineStore('countries', {
       this.country = null
       this.loading = true
       try {
-        const response = await fetch(`https://restcountries.com/v3.1/alpha/${countryCode}`).then(
-          (response) => response.json(),
-        )
-        this.country = response && response.length > 0 ? response[0] : response
+        const fetchResponse = await fetch(
+          `https://restcountries.com/v3.1/alpha/${countryCode}`,
+        ).then((response) => response.json())
+        this.country = fetchResponse && fetchResponse.length > 0 ? fetchResponse[0] : fetchResponse
       } catch (error) {
         this.error = error
       } finally {

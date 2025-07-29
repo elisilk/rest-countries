@@ -52,21 +52,21 @@ onMounted(() => {
 <template>
   <div id="theme-switcher">
     <button
-      class="theme-switcher-button text-preset6-semi-bold"
+      class="theme-switcher-button text-preset4-semi-bold"
       data-set-theme="light"
       type="button"
       @click="handleThemeSwitch"
     >
-      <img src="/icon-theme-light.svg" alt="" />
+      <img class="theme-switcher__icon" src="/icon-theme-light.svg" alt="" />
       <span>Light Mode</span>
     </button>
     <button
-      class="theme-switcher-button text-preset6-semi-bold"
+      class="theme-switcher-button text-preset4-semi-bold"
       data-set-theme="dark"
       type="button"
       @click="handleThemeSwitch"
     >
-      <img src="/icon-theme-dark.svg" alt="" />
+      <img class="theme-switcher__icon" src="/icon-theme-dark.svg" alt="" />
       <span>Dark Mode</span>
     </button>
   </div>
@@ -100,5 +100,16 @@ onMounted(() => {
 
 [data-theme='dark'] button[data-set-theme='dark'] {
   display: none;
+}
+
+.theme-switcher__icon {
+  block-size: 16px;
+}
+
+/* viewport: tablet -> desktop */
+@media (min-width: 60rem) {
+  .theme-switcher__icon {
+    block-size: 20px;
+  }
 }
 </style>

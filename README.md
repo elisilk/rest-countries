@@ -97,6 +97,12 @@ As always, so many cool :sunglasses: things. Here are some of the key resources 
 - [`<input type="search">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/search)
 - [Document: `documentElement` property](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement)
 - [Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+- Sticky Header
+  - [One Line - Sticky Header using CSS](https://dev.to/akhilarjun/one-line-sticky-header-using-css-5gp3)
+  - [One line CSS solution to prevent anchor links from scrolling behind a sticky or fixed header](https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html)
+    - [`scroll-margin-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top)
+    - [`scroll-padding-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top)
+  - [How to Create a “Skip to Content” Link](https://css-tricks.com/how-to-create-a-skip-to-content-link/)
 
 ### Continued development
 

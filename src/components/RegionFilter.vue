@@ -132,6 +132,7 @@ onBeforeUnmount(() => {
     <button
       id="dropdown-button"
       class="select-button input-box"
+      type="button"
       role="combobox"
       aria-label="select button"
       aria-haspopup="true"
