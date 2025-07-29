@@ -106,6 +106,7 @@ As always, so many cool :sunglasses: things. Here are some of the key resources 
   - [CSS tricks `color-scheme`](https://css-tricks.com/almanac/properties/c/color-scheme/)
   - [CSS tricks `light-dark()`](https://css-tricks.com/almanac/functions/l/light-dark/)
     - [CodePen `light-dark()` code example - light and dark mode toggle](https://codepen.io/sunkanmii-the-styleful/pen/MYgWyPr)
+  - [CSS color-scheme-dependent colors with light-dark()](https://web.dev/articles/light-dark)
 - Custom select dropdown
   - [Creating a custom `<select>` dropdown with CSS](https://blog.logrocket.com/creating-custom-select-dropdown-css/)
     - [custom select dropdown with CSS + JS](https://codepen.io/ibaslogic/pen/NPKdday?editors=0010)
@@ -151,7 +152,7 @@ Specific areas that the solution should be improved (known issues):
 
 - [x] Fix sizing and styling of SVG icons
 - [x] Fix styling of input and select elements
-- [ ] Fix [frontend mentor solution screenshot](https://www.frontendmentor.io/solutions/rest-countries-api-with-theme-switcher-and-searchingfiltering-JRo5DcbyF4) so that the index shows the full listing of country cards rather than "loading..."
+- [x] Fix [frontend mentor solution screenshot](https://www.frontendmentor.io/solutions/rest-countries-api-with-theme-switcher-and-searchingfiltering-JRo5DcbyF4) so that the index shows the full listing of country cards rather than "loading..."
 
 More general ideas I want to consider:
 

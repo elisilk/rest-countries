@@ -29,10 +29,6 @@ export const useCountriesStore = defineStore('countries', {
     getCountryById: (state) => {
       return (countryId) => state.countries.find((country) => country.cca3 === countryId)
     },
-    getBorderCountries: (state) => {
-      return (countryCodes) =>
-        state.countries.filter((country) => countryCodes.includes(country.cca3))
-    },
   },
   actions: {
     async fetchCountries() {
@@ -77,8 +73,3 @@ export const useCountriesStore = defineStore('countries', {
     },
   },
 })
-
-// ideas about how to connect an array of bordering countries specified by their cca3 country codes to their country names
-// async fetchBorderCountries(countryCodes) {
-//   `https://restcountries.com/v3.1/alpha?codes={code},{code},{code}`;
-// }
