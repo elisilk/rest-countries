@@ -154,6 +154,12 @@ Specific areas that the solution should be improved (known issues):
 - [x] Fix styling of input and select elements
 - [x] Fix [frontend mentor solution screenshot](https://www.frontendmentor.io/solutions/rest-countries-api-with-theme-switcher-and-searchingfiltering-JRo5DcbyF4) so that the index shows the full listing of country cards rather than "loading..."
 - [ ] Put in some fancy [transitions](https://router.vuejs.org/guide/advanced/transitions)
+- [ ] Implement some kind of lazy loading of the countries list to improve performance and better manage memory usage
+  - [Virtualize Large Lists](https://vuejs.org/guide/best-practices/performance#virtualize-large-lists) and other Vue [performance](https://vuejs.org/guide/best-practices/performance) best practices
+  - Solutions
+    - [vue-virtual-scroll-list](https://tangbc.github.io/vue-virtual-scroll-list/)
+    - [vue-virtualized-list](https://vue-virtualized-list.netlify.app/)
+  - [`<Lazy>` rendering in Vue to improve performance](https://medium.com/js-dojo/lazy-rendering-in-vue-to-improve-performance-dcccd445d5f)
 
 More general ideas I want to consider:
 
